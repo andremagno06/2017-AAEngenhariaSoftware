@@ -10,7 +10,7 @@ package model;
  * @author ice
  */
 public class Contato {
-    
+    private int codigo;
     private String nome;
     private String email;
 
@@ -23,6 +23,23 @@ public class Contato {
         this.email = email;
        
     }
+    
+    public Contato(int codigo, String nome, String email) {
+        super();
+        this.codigo = codigo;
+        this.nome = nome;
+        this.email = email;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+    
+    
 
     public String getNome() {
         return nome;

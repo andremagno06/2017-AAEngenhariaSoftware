@@ -38,7 +38,6 @@ public class GravarContatoAction implements Action{
                 response.sendRedirect("contatoSucesso.jsp");
             } catch(SQLException ex) {
                 response.sendRedirect("contatoErro.jsp");
-                ex.printStackTrace();
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(GravarContatoAction.class.getName()).log(Level.SEVERE, null, ex);
             }

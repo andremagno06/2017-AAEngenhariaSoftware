@@ -1,7 +1,7 @@
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
 <%--
-The taglib directive below imports the JSTL library. If you uncomment it,  
+The taglib directive below imports the JSTL library. If you uncomment it,
 you must also add the JSTL library to the project. The Add Library... action
 on Libraries node in Projects view can be used to add the JSTL 1.1 library.
 --%>
@@ -27,6 +27,10 @@ on Libraries node in Projects view can be used to add the JSTL 1.1 library.
       <input type="text" name="textEmail"/><br/>
       <input type="submit"/>
     </form>
+    
+    <a href="FrontController?action=LerContato&codigo=1">
+        Ler o primeiro contato
+    </a>
     <%--
     This example uses JSTL, uncomment the taglib directive above.
     To test, display the page like this: index.jsp?sayHello=true&name=Murphy
