@@ -4,10 +4,8 @@ import com.mysql.jdbc.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
- * @author 08023674617
- */
+
+
 public class DatabaseLocator {
     private static DatabaseLocator instance = new DatabaseLocator();
     

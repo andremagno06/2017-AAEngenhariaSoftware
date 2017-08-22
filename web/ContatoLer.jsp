@@ -8,7 +8,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>ContatoLeitura</title>
+        <title>ContatoLer</title>
     </head>
     <body>
         <h1>Contato</h1>

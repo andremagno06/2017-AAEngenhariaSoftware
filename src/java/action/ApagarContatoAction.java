@@ -22,7 +22,7 @@ import persistence.ContatoDAO;
  */
 public class ApagarContatoAction implements Action{
       public void execute(HttpServletRequest request, HttpServletResponse response) throws IOException{
-       String codigo = request.getParameter("codigo");
+        String codigo = request.getParameter("codigo");
         
         if(codigo.equals("")){
             response.sendRedirect("index.jsp");
